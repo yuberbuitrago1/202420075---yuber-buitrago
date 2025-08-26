@@ -15,7 +15,7 @@ int main() {
     cout <<endl << "ingrese el segundo valor: ";
     cin >> inputvalue2;
 
-    cout << "ingrese la operacion que desea realizar: suma= 1, resta= 2, multiplciacion= 3, division= 4, modulo= 5"
+    cout << "ingrese la operacion que desea realizar: suma= 1, resta= 2, multiplciacion= 3, division= 4, modulo= 5";
     cin >> selectedOperation;
 
 
