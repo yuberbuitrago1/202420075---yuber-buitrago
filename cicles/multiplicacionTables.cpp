@@ -13,7 +13,16 @@ int main() {
 
     for (int i = 1; i <= 10; i++)
     {
-        cout << numberTable << "*"  << i  << "=" << numberTable*i << endl;
+        cout << "tabla de: " << i << endl;
+
+        for (int j = 1; j <= 10; j++)
+        {
+            int multiplicacionResult= i * j;
+
+            cout << i << " * " << j << " = " << multiplicacionResult << endl;
+            
+        }
+        cout << "--------------" << endl;
 
     }
     
