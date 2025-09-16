@@ -19,12 +19,12 @@ int main() {
     cin >> selectedOperation;
 
 
-    if (selectedOperation == 1);
+    if (selectedOperation == 1)
     {
         sumResult = inputValue1 + inputvalue2;
         cout << "el resultado de la suma es: " << sumResult;
     }
-
+    
     else if (selectedOperation == 2)
     {
         subResult = inputValue1 - inputvalue2;
@@ -39,7 +39,7 @@ int main() {
 
     else if ( selectedOperation == 4 )
     {
-        divisionResult = inputValue1 / inputvalue2
+        divisionResult = inputValue1 / inputvalue2;
         cout << "el resultado de la division es: " << divisionResult;
     }
 
