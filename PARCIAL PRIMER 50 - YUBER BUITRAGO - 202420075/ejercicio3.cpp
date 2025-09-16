@@ -14,7 +14,7 @@ bool requiresMaintenance(int sheets, int interval){
     }
 }
 
-int mian(){
+int main(){
 
     int sheets, interval;
     bool needsMaintenance;
