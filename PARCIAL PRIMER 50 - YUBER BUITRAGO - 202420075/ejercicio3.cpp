@@ -4,7 +4,7 @@ using namespace std;
 
 bool requiresMaintenance(int sheets, int interval){
 
-    if (sheets/interval)
+    if (sheets % interval == 0)
     {
         return true;
     }
@@ -17,16 +17,13 @@ bool requiresMaintenance(int sheets, int interval){
 int main(){
 
     int sheets, interval;
-    bool needsMaintenance;
 
     cout << "ingrese cuantas hojas se produjeron: ";
     cin >> sheets;
     cout << "ingrese cada cuantas hojas la maquina debe detenerse: ";
     cin >> interval;
 
-    needsMaintenance == requiresMaintenance(sheets, interval);
-
-    if (needsMaintenance)
+    if (requiresMaintenance(sheets, interval))
     {
         cout << "la maquina requiere mantenimiento" << endl;
     } 
