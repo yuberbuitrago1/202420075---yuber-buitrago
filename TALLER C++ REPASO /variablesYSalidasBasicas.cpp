@@ -12,6 +12,10 @@ int main(){
     cin >> userName;
     cout << endl << "ahora ingrese su edad: ";
     cin >> userAge;
+    cout << "ahora ingrese su estatura en metros: ";
+    cin >> userHeight;
+
+    cout << "hola " << userName << " tu edad es de " << userAge << " años " << "y su altura es de " << userHeight << " metros" << endl;
 
     return 0;
 }
